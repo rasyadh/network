@@ -1,0 +1,27 @@
+name: network
+description: Network abstraction library
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  path: ^1.8.0
+  result_utils:
+    git:
+      url: git@github.com:rasyadh/result_utils.git
+  json_converter:
+    git:
+      url: git@github.com:rasyadh/json_converter.git
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  faker: ^2.0.0
+  mocktail: ^0.2.0
