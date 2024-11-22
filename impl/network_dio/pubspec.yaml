@@ -16,9 +16,8 @@ dependencies:
   http_parser: ^4.0.0
 
   network:
-    path: ../../.
-    # git:
-    #   url: git@github.com:rasyadh/network.git
+    git:
+      url: git@github.com:rasyadh/network.git
   json_converter:
     git:
       url: git@github.com:rasyadh/json_converter.git

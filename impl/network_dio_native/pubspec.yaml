@@ -12,10 +12,9 @@ dependencies:
     sdk: flutter
 
   network_dio:
-    # git:
-    #   url: git@github.com:rasyadh/network_dio.git
-    #   path: impl/network_dio
-    path: ../network_dio
+    git:
+      url: git@github.com:rasyadh/network.git
+      path: impl/network_dio
 
   native_dio_adapter: ^1.3.0
 
@@ -24,7 +23,3 @@ dev_dependencies:
     sdk: flutter
   flutter_lints: ^3.0.0
   mocktail: ^0.2.0
-
-dependency_overrides:
-  network_dio:
-    path: ../network_dio
